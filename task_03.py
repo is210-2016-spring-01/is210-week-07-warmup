@@ -6,16 +6,15 @@ from decimal import Decimal
 
 
 def lexicographics(to_analyze):
-    """This is a function that returns max, min and average number of words
-       in for each sentense in a given text.
+    """Lexicographics returns max, min and average number of words
+       in each entry.
 
     Args:
-        to_analyze (mixed): A text made of multiple sentences sparated by
-                            '\n' at the end of each sentence.
+        to_analyze (mixed): Analysing Text
 
     Returns:
-        max (int): maximum number of words in a sentense
-        min (int): minimum number of words in a sentense
+        max (int): maximum number of words in a sentence
+        min (int): minimum number of words in a sentence
         average (decimal): average number of words in the text
     Example:
         >>> lexicographics('''This is a test, and only a test''')
