@@ -27,7 +27,7 @@ def lexicographics(to_analyze):
     average_words = dec.Decimal(0.0)
     word_count_list = []
     for word_count in to_analyze:
-        word_count = len(to_analyze[loop_count].split()
+        word_count = len(to_analyze[loop_count].split())
         word_count_list += [word_count]
         loop_count += 1
 
