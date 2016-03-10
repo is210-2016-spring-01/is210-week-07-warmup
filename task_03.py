@@ -28,7 +28,7 @@ def lexicographics(to_analyze):
     word_count_list = []
     count = 0
     for word_count in (to_analyze):
-        word_count_list.append(len(line.split()))
+        word_count_list.append(len(to_analyze).split())
         count = word_count
     return max(word_count_list), min(word_count_list), \
            decimal.Decimal(sum(word_coun_list)) / (count + 1)
