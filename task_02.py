@@ -18,10 +18,10 @@ def bool_to_str(bval):
 
     >>> bool_to_str('')
     'No'
-    """
+        """
     if bval:
         result = 'Yes'
     else:
         result = 'No'
 
-        return result
+    return result
