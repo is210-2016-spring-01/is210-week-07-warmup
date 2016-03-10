@@ -16,10 +16,9 @@ def fibonacci(maxint):
         >>> fibonacci(10)
         [0, 1, 1, 2, 3, 5, 8]
     """
-    var_a, var_b = 0,1
-    fib_list = [var_a]
-    while var_b < maxint:
-        var_a, var_b = var_b, var_a + var_b
-        fib_list.append(var_a)
-        return fib_list
-
+    lastnum, curnum = 0, 1
+    list1 = [0]
+    while curnum < maxint:
+        list1.append(curnum)
+        lastnum, curnum = curnum, lastnum +curnum
+    return list1
