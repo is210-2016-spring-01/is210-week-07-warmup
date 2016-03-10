@@ -23,12 +23,12 @@ def lexicographics(to_analyze):
     task_03.lexicographs(data.SHAKESPEARE)
     (12, 5, DECIMAL('8.14'))
     """
-    to_analyze = to_analyze.split('/n')
-    average_words = dec.Decimal(0.0)
-    word_count_list = []
-    count = 0
-    for word_count in (to_analyze):
-        word_count_list.append(len(to_analyze).split())
-        count = word_count
-    return max(word_count_list), min(word_count_list), \
-           decimal.Decimal(sum(word_coun_list)) / (count + 1)
+    mylist = []
+    lines = to_analyze.split("\n")
+    for line in lines:
+        num_words = line.split()
+        mylist.append(len(num_words))
+    mymin = min(mylist)
+    mymax = max(myList)
+    myav = Decimal(sum(mylist))/Decimal(len(mylist))
+    return mymax, mumin, myav
