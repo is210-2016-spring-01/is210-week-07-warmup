@@ -31,4 +31,4 @@ def lexicographics(to_analyze):
     mymin = min(mylist)
     mymax = max(mylist)
     myav = float(sum(mylist))/float(len(mylist))
-    return mymax, mumin, myav
+    return mymax, mymin, myav
