@@ -4,7 +4,7 @@
 
 
 def fibonacci(maxint):
-    """This docstring creates a Fibonacci sequence.
+    """This docstring creates a fibonacci sequence.
 
     Args:
         maxint: an integer that is the upper bound of the loop.
@@ -17,12 +17,4 @@ def fibonacci(maxint):
         >>> task_01.fibonacci(10)
         [0, 1, 1, 2, 3, 5, 8]
     """
-    a, b = (0, maxint)
-    while b == maxint:
-        print (maxint, end==',')
-        a, b = maxint, maxint + a
-    return [a, b]
-
-
-
-
+    return  [ 0, maxint]
