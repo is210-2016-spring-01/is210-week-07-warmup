@@ -13,9 +13,13 @@ def fibonacci(maxint):
         List: the newly generated sequence.
 
     Example:
-        >>> import task_01
-        >>> task_01.fibonacci(10)
+        >>> fibonacci(10)
         [0, 1, 1, 2, 3, 5, 8]
     """
-    print (0, maxint)
-    return [0, maxint]
+    var_a, var_b = 0,1
+    fib_list = [var_a]
+    while var_b < maxint:
+        var_a, var_b = var_b, var_a + var_b
+        fib_list.append(var_a)
+        return fib_list
+
