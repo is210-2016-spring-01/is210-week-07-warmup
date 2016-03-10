@@ -19,9 +19,7 @@ def bool_to_str(bval):
         >>> bool_to_str('')
         'No'
     """
-    if bval is True:
-        result = 'Yes'
-    elif bval is not '':
+    if bval:
         result = 'Yes'
     else:
         result = 'No'
