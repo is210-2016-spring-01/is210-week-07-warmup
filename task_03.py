@@ -29,6 +29,6 @@ def lexicographics(to_analyze):
         num_words = line.split()
         mylist.append(len(num_words))
     mymin = min(mylist)
-    mymax = max(myList)
+    mymax = max(mylist)
     myav = Decimal(sum(mylist))/Decimal(len(mylist))
     return mymax, mumin, myav
