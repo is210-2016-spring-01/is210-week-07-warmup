@@ -18,7 +18,4 @@ def fibonacci(maxint):
         [0, 1, 1, 2, 3, 5, 8]
     """
     print (0, maxint)
-
-
-
-
+    return [0, maxint]
