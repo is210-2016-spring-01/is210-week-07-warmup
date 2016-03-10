@@ -4,7 +4,7 @@
 
 
 def bool_to_str(bval):
-"""A function that returns yes/no string.
+    """A function that returns yes/no string.
 
     Args:
         bval(bool), required: Truthy of Falsy.
@@ -13,12 +13,12 @@ def bool_to_str(bval):
         result: Yes or no string based on the bool value.
 
     Example:
-    >>> bool_to_str(True)
-    'Yes'
+        >>> bool_to_str(True)
+        'Yes'
 
-    >>> bool_to_str('')
-    'No'
-        """
+        >>> bool_to_str('')
+        'No'
+   """
     if bval:
         result = 'Yes'
     else:
