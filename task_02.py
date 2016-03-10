@@ -4,7 +4,7 @@
 
 
 def bool_to_str(bval):
-    """This is a function that prints 'Yes' or 'No' pertaining to whether or 
+    """This is a function that prints 'Yes' or 'No' pertaining to whether or
     not a statement is true
 
     Args:
