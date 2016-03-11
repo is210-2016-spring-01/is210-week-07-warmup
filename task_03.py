@@ -14,14 +14,14 @@ def lexicographics(to_analyze):
         to_analyze(mixed): list of strings.
 
     Examples:
-    import task_03
+    >>> import task_03
     >>> lexicographics('''Don't sto believing, Hold on to that feeling.''')
-    (5, 3, Decimal(4.0))
+    (8, 8, 8.0)
 
-    >>>import task_03
-    >>>import data
-    task_03.lexicographs(data.SHAKESPEARE)
-    (12, 5, DECIMAL('8.14'))
+    >>> import task_03
+    >>> import data
+    >>> task_03.lexicographics(data.SHAKESPEARE)
+    (12, 5, 8.14)
     """
     mylist = []
     lines = to_analyze.split("\n")
