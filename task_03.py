@@ -15,7 +15,7 @@ def lexicographics(to_analyze):
 
     Examples:
        >>> lexicographics(data.SHAKESPEARE)
-       (12, 5, Decimal('8.14'))
+       (12, 5, float('8.14'))
     """
     mylist = []
     lines = to_analyze.split("\n")
