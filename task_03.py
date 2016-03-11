@@ -3,7 +3,6 @@
 """Task 3 file."""
 
 import decimal
-import data
 
 
 def lexicographics(to_analyze):
@@ -21,9 +20,8 @@ def lexicographics(to_analyze):
         Hold on to that feeling.''')
         '(5, 3, Decimal(4.0))'
     """
-    to_analyze = to_analyze.split('\n')
-    word_count = len(to_analyze)
-    count = 0
-    for word in to_analyze:
-        return min(to_analyze), max(to_analyze), decimal.Decimal(
-            sum((to_analyze/count+1)))
+    words = []
+
+    for value in to_analyze.split('\n'):
+        words.append(len(value.split()))
+    return (max(words), min(words), decimal.Decimal(sum(words)/len(words)))
