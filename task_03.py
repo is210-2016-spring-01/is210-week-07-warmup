@@ -24,4 +24,5 @@ def lexicographics(to_analyze):
 
     for value in to_analyze.split('\n'):
         words.append(len(value.split()))
-    return (max(words), min(words), decimal.Decimal(sum(words)/len(words)))
+    return (max(words), min(words), decimal.Decimal(sum(words)/
+            decimal.Decimal(len(words))))
