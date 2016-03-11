@@ -3,8 +3,6 @@
 """This docstring is a for loop to count strings"""
 
 
-import decimal as dec
-
 def lexicographics(to_analyze):
 
 
