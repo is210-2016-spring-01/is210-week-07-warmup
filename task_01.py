@@ -17,9 +17,9 @@ def fibonacci(maxint):
         >>> import task_01
         >>> task_01.fibonacci(10)
         [0, 1, 1, 2, 3, 5, 8]
-        
+
     """
-    
+
     sequence = [0]
     lastnum, curnum = 0, 1
     while curnum < maxint:

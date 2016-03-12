@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """This module lets us practice the if statement"""
 
+
 def bool_to_str(bval):
     """Yields a 'Yes' or 'No' statement wether or not input is true.
 
@@ -18,7 +19,7 @@ def bool_to_str(bval):
         >>> task_02.bool_to_str(' ')
         'No'
     """
-    
+
     if bval:
         myvar = 'Yes'
     else:

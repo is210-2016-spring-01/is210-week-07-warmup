@@ -26,7 +26,7 @@ def lexicographics(to_analyze):
     splitter = to_analyze.split("\n")
     for data in splitter:
         net_words = data.split()
-        mytup.append(len(net_words)) 
+        mytup.append(len(net_words))
     mymin = min(mytup)
     mymax = max(mytup)
     myavg = decimal.Decimal(sum(mytup))/decimal.Decimal(len(mytup))
