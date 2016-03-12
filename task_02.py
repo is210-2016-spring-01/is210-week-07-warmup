@@ -19,7 +19,7 @@ def bool_to_str(bval):
         'No'
     """
     
-    if bval is True:
+    if bval:
         myvar = 'Yes'
     else:
         myvar = 'No'
