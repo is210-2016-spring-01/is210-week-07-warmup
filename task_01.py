@@ -16,8 +16,9 @@ def fibonacci(maxint):
     >>> task_01.fibonacci(10)
     [0, 1, 1, 2, 3, 5, 8]
     """
+    result = []
     initial, maxint = 0, 1
     while maxint < 10:
-        print [maxint]
-        output = initial, maxint = maxint, initial + maxint
-    return output
+        result.append(maxint)
+        initial, maxint = maxint, initial + maxint
+    return result
