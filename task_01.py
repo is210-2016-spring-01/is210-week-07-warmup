@@ -19,5 +19,5 @@ def fibonacci(maxint):
     initial, maxint = 0, 1
     while maxint < 10:
         print [maxint]
-        initial, maxint = maxint, initial + maxint
-    return
+        output = initial, maxint = maxint, initial + maxint
+    return output
